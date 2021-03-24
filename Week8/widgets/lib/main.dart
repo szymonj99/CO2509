@@ -17,7 +17,13 @@ class MyApp extends StatelessWidget
           title: Text("Welcome to CO2509"),
         ),
         body: Center(
-          child: Text("Hello World"),
+          // child: Icon(
+          //   Icons.access_alarm_outlined,
+          //   color: Colors.red,
+          //   size: 200,
+          // ),
+          //child: Image.asset("assets/images/photo1.png",),
+          child: Image.network("https://www.uclan.ac.uk/assets/img/uclan-logo.png", fit: BoxFit.fitWidth)
         ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.arrow_circle_up_outlined),
